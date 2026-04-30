@@ -136,6 +136,7 @@ class Tokenizer:
         "LoggedVolatility",
         "MeetingRate",
         "MonetaryShock",
+        "LoggedConsumption",
     )
 
     # State aliases for canonicalization across environments
@@ -200,6 +201,7 @@ class Tokenizer:
         "Monetary Policy Shock": "MonetaryShock",
         "capital (log)": "LoggedCapital",
         "TFP (log)": "LoggedProductivity",
+        "consumption (log)'": "LoggedConsumption",
     }
 
     ACTION_TOKENS: tuple[str, ...] = (
