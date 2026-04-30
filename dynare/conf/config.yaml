@@ -1,7 +1,7 @@
 metadata:
   data_folder: data
   periods: 1000
-  num_samples: 3000
+  num_samples: 6000
 
 models:
 
